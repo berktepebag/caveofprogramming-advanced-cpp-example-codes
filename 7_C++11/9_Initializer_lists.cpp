@@ -15,8 +15,10 @@ public:
         }
     }
 
-    void print(initializer_list<string> texts){
-        for(auto value:texts){
+    void print(initializer_list<string> texts)
+    {
+        for (auto value : texts)
+        {
             cout << value << endl;
         }
     }
@@ -30,7 +32,7 @@ int main()
 
     Test test{"apple", "orange", "banana"};
 
-    test.print({"one","two","three","four","five"});
+    test.print({"one", "two", "three", "four", "five"});
 
     return 0;
 }
